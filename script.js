@@ -13,4 +13,8 @@ for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
     console.log(currentNumber);
     document.write(" Monkey");
   }
+  if (currentNumber % 7 === 0 && currentNumber % 5 === 0) {
+      document.write(" ChickenMonkey");
+      console.log(currentNumber);
+  }
 }
